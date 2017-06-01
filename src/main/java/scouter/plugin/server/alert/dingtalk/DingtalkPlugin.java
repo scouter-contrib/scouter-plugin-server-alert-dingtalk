@@ -158,9 +158,9 @@ public class DingtalkPlugin {
 		HttpResponse response = client.execute(post);
 
 		if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-			println("Line message sent to [" + token + "] successfully.");
+			println("DingTalk message sent to [" + token + "] successfully.");
 		} else {
-			println("Line message sent failed. Verify below information.");
+			println("DingTalk message sent failed. Verify below information.");
 			println("[URL] : " + url);
 			println("[Message] : " + body);
 			println("[Reason] : " + EntityUtils.toString(response.getEntity(), "UTF-8"));
