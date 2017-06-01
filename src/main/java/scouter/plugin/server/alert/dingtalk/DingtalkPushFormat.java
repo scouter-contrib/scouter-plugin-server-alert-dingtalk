@@ -1,7 +1,7 @@
-package scouter.plugin.server.alert.line;
+package scouter.plugin.server.alert.dingtalk;
 
 /**
- * @author Gun Lee (gunlee01@gmail.com) on 2016. 12. 20.
+ * @author Gun Lee (gunlee01@gmail.com)
  */
 public class DingtalkPushFormat {
     private String msgtype = "text";

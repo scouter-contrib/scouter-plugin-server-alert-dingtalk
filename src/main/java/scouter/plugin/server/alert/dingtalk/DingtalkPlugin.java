@@ -15,7 +15,7 @@
  *  
  *  @author Sang-Cheon Park
  */
-package scouter.plugin.server.alert.line;
+package scouter.plugin.server.alert.dingtalk;
 
 import com.google.gson.Gson;
 import org.apache.http.HttpResponse;

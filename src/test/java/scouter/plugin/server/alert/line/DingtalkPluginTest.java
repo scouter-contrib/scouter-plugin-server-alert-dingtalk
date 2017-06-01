@@ -1,6 +1,7 @@
 package scouter.plugin.server.alert.line;
 
 import org.junit.Test;
+import scouter.plugin.server.alert.dingtalk.DingtalkPlugin;
 
 /**
  * Copyright (C) 2017 SNOW Corporation. All rights Reserved.
